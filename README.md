@@ -1,18 +1,21 @@
-## Getting Started
+## Esercizio: Televisore
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Scrivere una classe che simula il comportamento di un Televisore.
 
-## Folder Structure
+Funzionalità previste:
 
-The workspace contains two folders by default, where:
+* accendi
+* spegni
+* scansionaCanali: generare un elenco di canali visualizzabili. Da un elenco preimpostato di canali possibili, memorizzare solo quelli che hanno una potenza > di 30 (simulare il rilevamento della potenza con un numero casuale da 0 a 100 per ogni canale)
+* guardaCanale(int nrCanale): visualizza il messaggio "Stai guardando il canale `nome_del_canale`" (ad es. "Stai guardando RAIUNO")
+* aumentaVolume(): aumenta il volume di 1 (volume max: 10)
+* diminuisciVolume(): diminuisce il volume di 1 (volume min: 1)
+* per ogni canale memorizzato prevedere i seguenti dati:
+  * nr canale
+  * nome canale
+  * frequenza
+  * potenza rilevata
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Creare due progetti diversi: il primo contenente le classi e il secondo che ne chiama i metodi attraverso un'interfaccia testuale (utilizzando la libreria creata con il primo progetto)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
