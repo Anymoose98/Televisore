@@ -1,5 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
 
 public class canali {
     // Dichiarazioni
@@ -19,10 +17,4 @@ public class canali {
         this.potenzaRilevata = potenzaRilevata;
     }
 
-
-    public void canalitv() {
-       
-
-        
-    }
 }
